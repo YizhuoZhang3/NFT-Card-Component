@@ -124,6 +124,8 @@ hr {
   width: 33px;
   height: 33px;
   margin-right: 16px;
+  border: 1px var(--clr-neutral-100) solid;
+  border-radius: 100%;
 }
 
 .create {
