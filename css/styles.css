@@ -9,7 +9,6 @@
 }
 
 /* Box sizing rules */
-
 *,
 *::before,
 *::after {
@@ -30,10 +29,6 @@ dd {
 }
 
 /* remove list styles on ul, ol elements with a none style */
-ul[role="list"],
-ol[role="list"] {
-  list-style: none;
-}
 
 body {
   font-family: 'Outfit';
@@ -89,7 +84,17 @@ body {
   margin-top: 24px;
 }
 
+.nft_logo_price {
+  display: flex;
+}
+
+.eth_img {
+  width: 11px;
+  height: 18px;
+}
+
 .nft_price {
+  margin-left: 6.48px;
   color: var(--clr-primary-cyan);
 }
 
@@ -103,6 +108,7 @@ body {
 }
 
 hr {
+  margin-top: 20px;
   border: 1px solid var(--clr-neutral-200);
 }
 
