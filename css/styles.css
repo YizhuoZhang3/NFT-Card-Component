@@ -36,6 +36,7 @@ ol[role="list"] {
 }
 
 body {
+  font-family: 'Outfit';
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   background-color: var(--clr-neutral-800);
@@ -56,3 +57,47 @@ body {
   height: 302px;
   border-radius: 8px;
 }
+
+.card-title {
+  margin-top: 24px;
+}
+
+.nft_name {
+  color: var(--clr-neutral-100);
+  font-size: 22px;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.nft_dec {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  font-style: normal;
+  color: var(--clr-primary-blue);
+  margin-top: 16px;
+}
+
+.nft {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.nft_price {
+  color: var(--clr-primary-cyan);
+}
+
+.nft_time {
+  display: flex;
+}
+
+.nft_days {
+  color: var(--clr-primary-blue);
+  margin-left: 7.7px;
+}
+
+hr {
+  border: 1px solid var(--clr-neutral-200);
+}
+
