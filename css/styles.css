@@ -69,6 +69,11 @@ body {
   font-style: normal;
 }
 
+.nft_name:hover {
+  color: var(--clr-primary-cyan);
+  cursor: pointer;
+}
+
 .nft_dec {
   font-size: 18px;
   line-height: 26px;
@@ -121,4 +126,9 @@ hr {
 
 .name {
   color: var(--clr-neutral-100);
+}
+
+.name:hover {
+  color: var(--clr-primary-cyan);
+  cursor: pointer;
 }
