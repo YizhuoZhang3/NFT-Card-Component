@@ -50,7 +50,6 @@ body {
 .img_container {
   width: 302px;
   height: 302px;
-  border-radius: 8px;
   position: relative;
 }
 
@@ -65,7 +64,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100%;
+  width: 302px;
+  height: 302px;
   opacity: 0;
   transition: 0.3s ease;
   background: var(--clr-primary-cyan);
