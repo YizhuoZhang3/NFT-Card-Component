@@ -32,7 +32,7 @@ dd {
 
 body {
   font-family: 'Outfit';
-  min-height: 80vh;
+  min-height: 100vh;
   text-rendering: optimizeSpeed;
   background-color: var(--clr-neutral-800);
 }
