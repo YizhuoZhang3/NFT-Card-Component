@@ -47,11 +47,43 @@ body {
   border-radius: 15px;
 }
 
-.nft_picture {
+.img_container {
   width: 302px;
   height: 302px;
   border-radius: 8px;
+  position: relative;
 }
+
+.nft_picture {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.img_container_overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background: var(--clr-primary-cyan);
+  border-radius: 8px;
+}
+
+.img_container:hover .img_container_overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.eth_img_overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .card-title {
   margin-top: 24px;
